@@ -1118,8 +1118,11 @@ with gr.Blocks(
 # =========================================================
 
 if __name__ == "__main__":
+    import os
+
+    PORT = int(os.environ.get("PORT", 10000))
 
     demo.launch(
-        inbrowser=True
+        server_name="0.0.0.0",
+        server_port=PORT
     )
-    

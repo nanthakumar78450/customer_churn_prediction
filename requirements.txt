@@ -3,6 +3,6 @@ huggingface_hub>=1.16.0,<2.0
 pandas
 numpy
 joblib
-xgboost
+xgboost==3.0.2
 scikit-learn==1.9.0
  
